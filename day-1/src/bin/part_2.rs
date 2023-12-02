@@ -78,7 +78,6 @@ fn part_2(input: &str) -> i32 {
         temp_num_vec.push(temp_num.to_string());
         temp_num = 0;
     }
-    fs::write("src/bin/output_rust.txt", temp_num_vec.join("\n")).expect("Unable to write file");
     println!("{:?}", final_ans);
     final_ans
 }
