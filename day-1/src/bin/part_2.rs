@@ -1,5 +1,3 @@
-use std::fs;
-
 fn main() {
     let input = include_str!("./input.txt");
     let output = part_2(input);
